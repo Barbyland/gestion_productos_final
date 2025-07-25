@@ -43,6 +43,8 @@ Este proyecto es una aplicación de consola desarrollada en Python que permite g
 ## Comentarios finales 
 Este proyecto fue una gran oportunidad para aplicar de manera práctica lo aprendido en el curso Iniciación con Python** dictado por **Talento Tech**.
 Se trabajó con listas, estructuras de control, modularización del código y bases de datos con `sqlite3`.
+
+📎 [Ver certificado](docs/certificado_phyton_inicial.pdf)
 _________________________________________________________________________________________________________
 English version
 
