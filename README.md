@@ -3,13 +3,13 @@
 **Autor:** Barbara Bernhard  
 **Fecha:** Julio 2025  
 **Tecnología:** Python + SQLite  
-**Curso:** Iniciación con Python – Talento Tech
+**Curso:** Iniciación con Python dictado por **Talento Tech**
 
 ---
 
 ## 🗂 Descripción
 
-Este proyecto es una aplicación de consola desarrollada en Python que permite gestionar un inventario de productos utilizando una base de datos SQLite. Fue creado como entrega final del curso, integrando estructuras de datos, validaciones y persistencia.
+Este proyecto es una aplicación de consola desarrollada en Python que permite gestionar un inventario de productos utilizando una base de datos SQLite. Fue creado como entrega final del curso, integrando estructuras de datos, validaciones, modularización y persistencia de datos.
 
 ---
 
@@ -29,22 +29,42 @@ Este proyecto es una aplicación de consola desarrollada en Python que permite g
 | `inventario.py`          | Script principal con el menú del programa          |
 | `gestion_productos.py`   | Módulo con funciones para manipular productos      |
 | `inventario.db`          | Base de datos SQLite que almacena los productos    |
+| `requirements.txt`       | Dependencias del proyecto                          |
+| `EntregaFinal.docx`      | Documento de entrega con descripción del proyecto  |
 | `README.md`              | Documentación del proyecto                         |
-| `Entrega final.docx`     | Documento de entrega con descripción del proyecto  |
 
 ---
 
 ## ▶️ Cómo ejecutar el programa
 
-1. Asegurate de tener **Python 3.10 o superior** instalado.
+### Opción 1: ejecución directa
+1. Asegurate de tener **Python 3.13 o superior** instalado.
 2. Abrí una terminal en la carpeta del proyecto.
-3. Ejecutá el archivo principal: python inventario.py
+3. Ejecutá el archivo principal: 
+```bash
+python inventario.py
 
-## Comentarios finales 
+
+### Opción 2: usando entorno virtual
+1. Crear el entorno virtual:
+python -m venv .venv
+2. Activarlo en PowerShell:
+.venv\Scripts\Activate.ps1
+3. Ejecutar el programa:
+python inventario.py
+
+
+##  Dependencias
+
+Este proyecto utiliza principalmente módulos estándar de Python.
+Actualmente, el archivo requirements.txt puede estar vacío porque no se instalaron librerías externas adicionales.
+
+##  Comentarios finales 
+
 Este proyecto fue una gran oportunidad para aplicar de manera práctica lo aprendido en el curso Iniciación con Python** dictado por **Talento Tech**.
 Se trabajó con listas, estructuras de control, modularización del código y bases de datos con `sqlite3`.
 
-📎 [Ver certificado](docs/certificado_phyton_inicial.pdf)
+📎 [Ver certificado](docs/certificado_python_inicial.pdf)
 _________________________________________________________________________________________________________
 English version
 
@@ -55,7 +75,7 @@ Technology: Python + SQLite
 Course: Python Basics – Talento Tech
 
 🗂 Description
-This project is a terminal-based application built in Python to manage a product inventory using an SQLite database. It was created as the final assignment for the course, integrating data structures, validations, and data persistence.
+This project is a console-based Python application designed to manage a product inventory using an SQLite database. It was created as the final assignment for the course, integrating data structures, validation, modularization, and data persistence.
 
 ⚙️ Key Features
 📥 Add products with name and price validation
@@ -68,18 +88,30 @@ This project is a terminal-based application built in Python to manage a product
 
 📄 Project Files
 File	Description
-inventario.py	Main script with the menu system
+inventario.py	Main script with the program menu
 gestion_productos.py	Module with functions to manage products
-inventario.db	SQLite database to store product data
+inventario.db	SQLite database used to store product data
+requirements.txt	Project dependencies
 README.md	Project documentation
-Entrega final.docx	Delivery document with project description
 
 ▶️ How to run the program
-Make sure you have Python 3.10 or later installed.
 
-Open a terminal in the project folder.
+Option 1: direct execution
+1. Make sure you have Python 3.13 or later installed.
+2. Open a terminal in the project folder.
+3. Run: python inventario.py
 
-Run the main script: python inventario.py
+Option 2: using a virtual environment
+1. Create the virtual environment:
+python -m venv .venv
+2. Activate it in PowerShell:
+.venv\Scripts\Activate.ps1
+3. Run the program:
+python inventario.py
+
+##Dependencies
+This project mainly uses Python standard library modules.
+At the moment, requirements.txt may be empty because no additional external packages were installed.
 
 ##Final comments
 This project was a great opportunity to apply everything learned during the Python Basics course by Talento Tech.
