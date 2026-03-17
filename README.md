@@ -41,7 +41,6 @@ Este proyecto es una aplicación de consola desarrollada en Python que permite g
 1. Asegurate de tener **Python 3.13 o superior** instalado.
 2. Abrí una terminal en la carpeta del proyecto.
 3. Ejecutá el archivo principal: 
-```bash
 python inventario.py
 
 
